@@ -7,6 +7,6 @@
 <p>Customizable Themes: Users can switch between light and dark themes, adjusting the interface to their preferences for day or night coding sessions.</p>
 <h4>Built from scratch using HTML for structure, CSS for styling, and JavaScript to add dynamic functionality, this editor is a perfect tool for developers who want a simple yet effective coding environment without the need for heavy software installations.</h4>
 <h2>screenshot</h2>
-<img src="" alt="Photo"/>
+<img src="Screenshot 2024-10-22 124905.png" alt="Photo"/>
   
  
