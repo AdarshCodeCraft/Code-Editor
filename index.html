@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="css.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="logo">
+      <div class="imp">
+        <img src="css.png" alt="logo" width="40px" />
+        <span id="name">Adarsh<span class="name">CodeCraft</span></span>
+      </div>
+
+      <div class="image">
+        <a href="https://github.com/AdarshCodeCraft/"
+          ><img src="hum.svg" alt="logo" />
+        </a>
+      </div>
+    </div>
+    <div class="code-editor-container">
+      <div class="code-editor html-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="html.png" alt="" width="25px" />
+            <span>HTML</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.svg" alt="" class="copy copy1" />
+          </div>
+        </div>
+        <textarea class="html-input" spellcheck="false"></textarea>
+      </div>
+      <div class="code-editor css-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="pngwing.com.png" alt="" width="30px" />
+            <span>CSS</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.svg" alt="" class="copy copy2" />
+          </div>
+        </div>
+        <textarea class="css-input" spellcheck="false"></textarea>
+      </div>
+      <div class="code-editor js-editor">
+        <div class="head-editor">
+          <div class="left-head">
+            <img src="js.png" alt="" width="30px" />
+            <span>JS</span>
+          </div>
+          <div class="right-head">
+            <img src="copy.svg" alt="" class="copy copy3" />
+          </div>
+        </div>
+        <textarea class="js-input" spellcheck="false"></textarea>
+      </div>
+    </div>
+    <div class="output-container">
+      <div class="output-head">
+        <div class="outname">AdarshCodeCraft &copy 2024</div>
+        <div class="media">
+          <img id="save" src="save.svg" alt="" />
+          <img src="full.svg" alt="" id="full" />
+        </div>
+      </div>
+      <iframe id="output"> </iframe>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
